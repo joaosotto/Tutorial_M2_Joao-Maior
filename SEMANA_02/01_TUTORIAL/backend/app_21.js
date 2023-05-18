@@ -4,7 +4,7 @@ const app = express();
 const hostname = "127.0.0.1";
 const port = 3000;
 const sqlite3 = require("sqlite3").verbose();
-const DBPATH = "ponderada_semana02.db";
+const DBPATH = "banco_curriculo.db";
 
 app.use(express.json());
 
@@ -16,7 +16,7 @@ app.get("/tabela_pessoa", (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*"); // Isso é importante para evitar o erro de CORS
 
   var db = new sqlite3.Database(DBPATH); // Abre o banco
-  var sql = "SELECT * FROM Pessoas ORDER BY nome COLLATE NOCASE";
+  var sql = "SELECT * FROM Pessoa ORDER BY nome COLLATE NOCASE";
   console.log(sql);
   db.all(sql, [], (err, rows) => {
     if (err) {
