@@ -1,0 +1,81 @@
+/* cor do amarelo rgb(255, 187, 0); */
+
+/* nao sei pq a fonte nao vai  */
+/* #profile_pic {
+  height: 100px;
+  width: 100px;
+}
+#profile_pic:hover {
+  content: url(../backend/img/tuliomaravilha.jpeg);
+} */
+#container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  /* width: 100%; */
+}
+.p_player {
+  width: 30%;
+}
+
+#personal_info {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+#profile_pic {
+  height: 100px;
+  width: 100px;
+}
+#main_content {
+  height: 100vh;
+  border-radius: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#main_content:hover {
+  background-color: #445fa4;
+  color: white;
+}
+#main_titles {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#p_describes {
+  padding: 30px;
+}
+.habilities_title {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#classifications {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+}
+#classifications:hover {
+  background-color: #b7c4e4;
+  color: white;
+}
+.classification_subtitle {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+header:hover {
+  background-color: #06153c;
+  color: white;
+  border-radius: 30px;
+}
