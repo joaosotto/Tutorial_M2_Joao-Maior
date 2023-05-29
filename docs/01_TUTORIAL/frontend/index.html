@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Curriculum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <!-- <script>
+    const url = "/coletores";
+    fetch(url)
+      .then((response) => {
+        return response.json();
+      })
+      .then((coletores) => {
+        var saida = "";
+        coletores.forEach((elemento) => {
+          saida += "<h3>" + elemento.NOME_COLETOR + "</h3>";
+        });
+        document.getElementById("resultado").innerHTML = saida;
+      });
+  </script> -->
+  <body>
+    <div id="container">
+      <header>
+        <img
+          src="img\escudo_botafogo.png"
+          alt="Foto de Perfil"
+          id="profile_pic"
+        />
+        <div class="formation">
+          <h2>Formação</h2>
+          <p>Título da Formação: Lorem Ipsum</p>
+          <p>
+            Descrição da Formação: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+          </p>
+        </div>
+        <div class="info">
+          <h2>Informações Pessoais</h2>
+          <p>Nome: John Doe</p>
+          <p>Email: john.doe@example.com</p>
+          <p>Telefone: (XX) XXXX-XXXX</p>
+          <p>Idade: 30 anos</p>
+        </div>
+      </header>
+      <div id="main_content">
+        <div id="header">
+          <h2 id="main_titles">NOME</h2>
+          <h5 id="main_titles">Engenheiro De Software</h5>
+        </div>
+        <div class="main_subsections">
+          <h4 id="main_titles">REALIZAÇÕES</h4>
+          <hr id="line" />
+          <p id="p_describes">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,
+            voluptas quaerat earum alias eaque tempora iusto enim! Fugiat,
+            deleniti quae eius magnam optio, labore cupiditate dicta
+            exercitationem totam, repellendus itaque?
+          </p>
+        </div>
+        <div class="main_subsections">
+          <h4 id="main_titles">EXPERIÊNCIAS</h4>
+          <hr id="line" />
+          <p id="p_describes">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,
+            voluptas quaerat earum.
+          </p>
+        </div>
+      </div>
+      <div id="classifications">
+        <div id="caractheristics_subsections">
+          <h3 id="main_titles">CARACTERÍSTICAS</h3>
+          <hr id="line" />
+          <div class="caractheristics">
+            <h5 class="classification_subtitle">AUTODIDATA</h5>
+            <input type="radio" id="radio_characteristics" name="group_1" />
+            <label for="radio_characteristics">Muito Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_1" />
+            <label for="radio_characteristics">Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_1" />
+            <label for="radio_characteristics">Médio</label>
+            <input type="radio" id="radio_characteristics" name="group_1" />
+            <label for="radio_characteristics">Bom</label>
+            <input type="radio" id="radio_characteristics" name="group_1" />
+            <label for="radio_characteristics">Muito bom</label>
+          </div>
+          <div class="caractheristics">
+            <h5 class="classification_subtitle">COLABORADOR</h5>
+            <input type="radio" id="radio_characteristics" name="group_2" />
+            <label for="radio_characteristics">Muito Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_2" />
+            <label for="radio_characteristics">Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_2" />
+            <label for="radio_characteristics">Médio</label>
+            <input type="radio" id="radio_characteristics" name="group_2" />
+            <label for="radio_characteristics">Bom</label>
+            <input type="radio" id="radio_characteristics" name="group_2" />
+            <label for="radio_characteristics">Muito bom</label>
+          </div>
+          <div class="caractheristics">
+            <h5 class="classification_subtitle">PROATIVO</h5>
+            <input type="radio" id="radio_characteristics" name="group_3" />
+            <label for="radio_characteristics">Muito Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_3" />
+            <label for="radio_characteristics">Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_3" />
+            <label for="radio_characteristics">Médio</label>
+            <input type="radio" id="radio_characteristics" name="group_3" />
+            <label for="radio_characteristics">Bom</label>
+            <input type="radio" id="radio_characteristics" name="group_3" />
+            <label for="radio_characteristics">Muito bom</label>
+          </div>
+          <div class="caractheristics">
+            <h5 class="classification_subtitle">TRANSPARENTE</h5>
+            <input type="radio" id="radio_characteristics" name="group_4" />
+            <label for="radio_characteristics">Muito Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_4" />
+            <label for="radio_characteristics">Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_4" />
+            <label for="radio_characteristics">Médio</label>
+            <input type="radio" id="radio_characteristics" name="group_4" />
+            <label for="radio_characteristics">Bom</label>
+            <input type="radio" id="radio_characteristics" name="group_4" />
+            <label for="radio_characteristics">Muito bom</label>
+          </div>
+          <div class="caractheristics">
+            <h5 class="classification_subtitle">COMPROMETIDO</h5>
+            <input type="radio" id="radio_characteristics" name="group_5" />
+            <label for="radio_characteristics">Muito Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_5" />
+            <label for="radio_characteristics">Ruim</label>
+            <input type="radio" id="radio_characteristics" name="group_5" />
+            <label for="radio_characteristics">Médio</label>
+            <input type="radio" id="radio_characteristics" name="group_5" />
+            <label for="radio_characteristics">Bom</label>
+            <input type="radio" id="radio_characteristics" name="group_5" />
+            <label for="radio_characteristics">Muito bom</label>
+          </div>
+        </div>
+        <div id="habilities_subsections">
+          <h3 id="main_titles">HABILIDADES</h3>
+          <hr id="line" />
+          <div class="habilities">
+            <h5 class="classification_subtitle">ILLUSTRATOR</h5>
+            <input type="radio" id="radio_habilities" name="group_6" />
+            <label for="radio_habilities">Muito Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_6" />
+            <label for="radio_habilities">Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_6" />
+            <label for="radio_habilities">Médio</label>
+            <input type="radio" id="radio_habilities" name="group_6" />
+            <label for="radio_habilities">Bom</label>
+            <input type="radio" id="radio_habilities" name="group_6" />
+            <label for="radio_habilities">Muito bom</label>
+          </div>
+          <div class="habilities">
+            <h5 class="classification_subtitle">PHOTOSHOP</h5>
+            <input type="radio" id="radio_habilities" name="group_7" />
+            <label for="radio_habilities">Muito Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_7" />
+            <label for="radio_habilities">Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_7" />
+            <label for="radio_habilities">Médio</label>
+            <input type="radio" id="radio_habilities" name="group_7" />
+            <label for="radio_habilities">Bom</label>
+            <input type="radio" id="radio_habilities" name="group_7" />
+            <label for="radio_habilities">Muito bom</label>
+          </div>
+          <div class="habilities">
+            <h5 class="classification_subtitle">COREDRAW</h5>
+            <input type="radio" id="radio_habilities" name="group_8" />
+            <label for="radio_habilities">Muito Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_8" />
+            <label for="radio_habilities">Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_8" />
+            <label for="radio_habilities">Médio</label>
+            <input type="radio" id="radio_habilities" name="group_8" />
+            <label for="radio_habilities">Bom</label>
+            <input type="radio" id="radio_habilities" name="group_8" />
+            <label for="radio_habilities">Muito bom</label>
+          </div>
+          <div class="habilities">
+            <h5 class="classification_subtitle">DREAMWEAVER</h5>
+            <input type="radio" id="radio_habilities" name="group_9" />
+            <label for="radio_habilities">Muito Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_9" />
+            <label for="radio_habilities">Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_9" />
+            <label for="radio_habilities">Médio</label>
+            <input type="radio" id="radio_habilities" name="group_9" />
+            <label for="radio_habilities">Bom</label>
+            <input type="radio" id="radio_habilities" name="group_9" />
+            <label for="radio_habilities">Muito bom</label>
+          </div>
+          <div class="habilities">
+            <h5 class="classification_subtitle">HTMLCSS</h5>
+            <input type="radio" id="radio_habilities" name="group_10" />
+            <label for="radio_habilities">Muito Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_10" />
+            <label for="radio_habilities">Ruim</label>
+            <input type="radio" id="radio_habilities" name="group_10" />
+            <label for="radio_habilities">Médio</label>
+            <input type="radio" id="radio_habilities" name="group_10" />
+            <label for="radio_habilities">Bom</label>
+            <input type="radio" id="radio_habilities" name="group_10" />
+            <label for="radio_habilities">Muito bom</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
