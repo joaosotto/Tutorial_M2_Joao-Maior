@@ -18,6 +18,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
   /* width: 100%; */
 }
 .p_player {
@@ -44,6 +45,10 @@ header {
 #main_content:hover {
   background-color: #445fa4;
   color: white;
+  border: solid black;
+}
+.mainsubsections:hover {
+  background-color: #445fa4;
 }
 #main_titles {
   display: grid;
@@ -78,4 +83,18 @@ header:hover {
   background-color: #06153c;
   color: white;
   border-radius: 30px;
+}
+@media screen and (min-width: 1024px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .formation {
+    margin: 20px;
+  }
+  #profile_pic {
+    margin-top: 10px;
+  }
 }
