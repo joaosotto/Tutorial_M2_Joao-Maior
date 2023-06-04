@@ -39,10 +39,13 @@
         </div>
         <div class="info">
           <h2>Informações Pessoais</h2>
-          <p>Nome: John Doe</p>
-          <p>Email: john.doe@example.com</p>
-          <p>Telefone: (XX) XXXX-XXXX</p>
-          <p>Idade: 30 anos</p>
+          <p id="nome">Nome: John Doe</p>
+          <p id="email">Email: john.doe@example.com</p>
+          <p id="telefone">Telefone: (XX) XXXX-XXXX</p>
+          <p id="idade">Idade: 30 anos</p>
+          <button id="btn_header" onclick="mudar_background_header()">
+            Trocar de cor
+          </button>
         </div>
       </header>
       <div id="main_content">
@@ -67,6 +70,9 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui,
             voluptas quaerat earum.
           </p>
+          <button id="btn_main" onclick="mudar_background_main()">
+            Trocar de cor
+          </button>
         </div>
       </div>
       <div id="classifications">
@@ -210,5 +216,11 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="curriculo.js"></script>
   </body>
 </html>
