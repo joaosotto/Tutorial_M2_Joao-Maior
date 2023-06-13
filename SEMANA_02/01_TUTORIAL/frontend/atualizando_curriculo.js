@@ -33,7 +33,7 @@ function teste() {
       }
     },
     error: function (xhr, status, error) {
-      console.log("aaaaaaa");
+      console.log(error);
     },
   });
 
