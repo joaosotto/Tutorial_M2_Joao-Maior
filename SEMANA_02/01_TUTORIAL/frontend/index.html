@@ -1,31 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Curriculum</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
+    <title>Document</title>
   </head>
-  <!-- <script>
-    const url = "/coletores";
-    fetch(url)
-      .then((response) => {
-        return response.json();
-      })
-      .then((coletores) => {
-        var saida = "";
-        coletores.forEach((elemento) => {
-          saida += "<h3>" + elemento.NOME_COLETOR + "</h3>";
-        });
-        document.getElementById("resultado").innerHTML = saida;
-      });
-  </script> -->
   <body>
     <div id="container">
       <header>
         <img
-          src="img\escudo_botafogo.png"
+          src="./img/escudo_botafogo.png"
           alt="Foto de Perfil"
           id="profile_pic"
         />
@@ -43,6 +29,7 @@
           <p id="email">Email: john.doe@example.com</p>
           <p id="telefone">Telefone: (XX) XXXX-XXXX</p>
           <p id="idade">Idade: 30 anos</p>
+          <button id="botao_teste" onclick="teste()">botao de teste</button>
           <button id="btn_header" onclick="mudar_background_header()">
             Trocar de cor
           </button>
@@ -222,5 +209,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="curriculo.js"></script>
+    <script src="atualizando_curriculo.js"></script>
   </body>
 </html>
